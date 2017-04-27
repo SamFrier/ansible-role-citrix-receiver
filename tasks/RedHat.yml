@@ -1,2 +1,15 @@
 ---
-# TODO
+- name: Download Citrix Receiver .rpm
+  get_url:
+    url: "{{ rpm_download_url }}"
+    dest: "{{ rpm_download_location }}"
+
+- name: Install Citrix Receiver from .rpm
+  zypper:
+    name: "{{ rpm_download_location }}"
+    state: present
+
+- name: Remove .rpm file
+  file:
+    path: "{{ rpm_download_location }}"
+    state: absent

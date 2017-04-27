@@ -1,3 +1,5 @@
 ---
 deb_download_url: TBC
 deb_download_location: /tmp/receiver.deb
+rpm_download_url: TBC
+rpm_download_location: /tmp/
