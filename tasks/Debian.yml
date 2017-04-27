@@ -1,0 +1,14 @@
+---
+- name: Download Citrix Receiver .deb
+  get_url:
+    url: "{{ deb_download_url }}"
+    dest: "{{ deb_download_location }}"
+
+- name: Install Citrix Receiver from .deb
+  apt:
+    deb: "{{ deb_download_location }}"
+
+- name: Remove .deb file
+  file:
+    path: "{{ deb_download_location }}"
+    state: absent
