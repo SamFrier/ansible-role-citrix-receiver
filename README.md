@@ -6,7 +6,7 @@ Note: currently there is no download link specified, you will have to supply you
 
 ## Requirements
 
-Designed for Ubuntu 16.04 (CentOS 7 TBC).
+Designed for Ubuntu 16.04 and CentOS 7.
 
 ## Example Playbook
 
