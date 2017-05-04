@@ -13,7 +13,7 @@ Designed for Ubuntu 16.04 and CentOS 7.
 ```yml
 - hosts: all
   roles:
-    - { role: citrix-receiver }
+    - { role: citrix-receiver, deb_download_url: https://some.download.url }
 ```
 
 ## License

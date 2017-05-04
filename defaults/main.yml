@@ -1,5 +1,5 @@
 ---
-deb_download_url: [INSERT DOWNLOAD URL HERE]
+deb_download_url: OVERRIDE ME
 deb_download_location: /tmp/receiver.deb
-rpm_download_url: [INSERT DOWNLOAD URL HERE]
+rpm_download_url: OVERRIDE ME
 rpm_download_location: /tmp/receiver.rpm
